@@ -1,2 +1,2 @@
 # fakeJDWeb
-[demo](http://miot.github.io/fakeJDWeb/index.html)
+Online preview :[click me](http://miot.github.io/fakeJDWeb/index.html)
