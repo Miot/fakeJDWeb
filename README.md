@@ -1,2 +1,2 @@
-# fakeWeb
-This is a project imitating the web site.
+# fakeJDWeb
+[demo](http://miot.github.io/fakeJDWeb/index.html)
