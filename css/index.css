@@ -1,0 +1,202 @@
+/* sub-banner start */
+    .sub-banner{
+        position: relative;
+    }
+    .sub-banner a{
+        position: absolute;
+        width: 100%;
+        height: 644px;
+        background: url("../images/subbanner.jpg") no-repeat center top;
+        z-index: -1;
+    }
+    
+/* sub-banner end */
+
+/* main start */
+    .main-slider{
+        position: relative;
+        float: left;
+        width: 730px;
+        height: 454px;
+        margin: 12px 0 0 220px;
+    }
+    .main-slider ul{
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        margin-left: -66px;
+    }
+    .main-slider li{
+        height: 18px;
+        width: 18px;
+        float: left;
+        background-color: #3E3E3E;
+        color: #fff;
+        text-align: center;
+        line-height: 18px;
+        border-radius: 50%;
+        margin: 0 2px;
+        cursor: pointer;
+    }
+    .main-slider .current{
+        background-color: #B61B1F;
+    }
+
+    .arrow a{
+        position: absolute;
+        top:50%;
+        margin-top: -31px;
+        background: rgba(0, 0, 0, 0.3);
+        height: 62px;
+        width: 28px;
+        font:400 22px/62px "simsun";
+        text-align: center;
+        color: #fff;
+    }
+    .arrow a:hover{
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .arrow-left{
+        left: 0;
+        border-radius: 0 7px 7px 0;
+    }
+    .arrow .arrow-right{
+        right: 0;
+        border-radius: 7px 0 0 7px;
+    }
+
+    .main-news{
+        float: right;
+        height: 466px;
+        width: 250px;
+    }
+    .main-news-top{
+        height: 372px;
+        width: 248px;
+        border: 1px solid #E4E4E4;
+        margin: 12px 0 5px 0;
+        overflow: hidden;
+    }
+    .main-news-top-faster{
+        height: 163px;
+        border-bottom: 1px dashed #E4E4E4;
+    }
+    .main-news-top-faster-title{
+        height: 32px;
+        line-height: 32px;
+        border-bottom: 1px dotted #E8E8E8;
+        padding: 0 15px;
+    }
+    .main-news-top-faster-title h2{
+        float: left;
+        font:400 16px/32px "微软雅黑";
+    }
+    .main-news-top-faster-title a{
+        font-family:"consolas";
+        float: right;
+    }
+    .main-news-top-faster-content{
+        padding:5px 0 0 15px;
+    }
+    .main-news-top-faster-content li{
+        line-height: 24px;
+    }
+    .main-news-top-faster-content span{
+        font-weight: 700;
+        margin-right:5px; 
+    }
+    .main-news-top-money li{
+        margin-top:-1px;
+        float: left;
+        height: 70px;
+        width: 62px;
+        border: 1px solid #E8E8F8;
+        border-top:0;
+        border-left:0;
+    }
+    .main-news-top-money ul{
+        width: 260px;
+    }
+    .main-news-top-money a{
+        position: relative;
+        display: block;
+        height: 30px;
+        width: 62px;
+        text-align: center;
+        padding-top: 40px;
+        line-height: 30px;
+    }
+    .main-news-top-money i{
+        position: absolute;
+        top: 13px;
+        left: 18px;
+        height: 25px;
+        width: 25px;
+        
+    }
+    .main-news-top-money .main-news-top-money-icon1{
+        background: url("../images/fly.png") no-repeat;
+    }
+    .main-news-top-money .main-news-top-money-icon2{
+        background: url("../images/fly.png") no-repeat 0 -25px;
+    }
+    .main-news-top-money .main-news-top-money-icon3{
+        background: url("../images/fly.png") no-repeat 0 -50px;
+    }
+    .main-news-top-money .main-news-top-money-icon4{
+        background: url("../images/fly.png") no-repeat 0 -75px;
+    }
+    .main-news-top-money .main-news-top-money-icon5{
+        background: url("../images/fly.png") no-repeat 0 -100px;
+    }
+    .main-news-top-money .main-news-top-money-icon6{
+        background: url("../images/fly.png") no-repeat 0 -125px;
+    }
+    .main-news-top-money .main-news-top-money-icon7{
+        background: url("../images/fly.png") no-repeat 0 -150px;
+    }
+    .main-news-top-money .main-news-top-money-icon8{
+        background: url("../images/fly.png") no-repeat 0 -175px;
+    }
+    .main-news-top-money .main-news-top-money-icon9{
+        background: url("../images/fly.png") no-repeat 0 -200px;
+    }
+    .main-news-top-money .main-news-top-money-icon10{
+        background: url("../images/fly.png") no-repeat 0 -225px;
+    }
+    .main-news-top-money .main-news-top-money-icon11{
+        background: url("../images/fly.png") no-repeat 0 -250px;
+    }
+    .main-news-top-money .main-news-top-money-icon12{
+        background: url("../images/fly.png") no-repeat 0 -275px;
+    }
+/* main end */
+
+/* today start */
+    .today{
+        padding: 10px 0 20px;
+    }
+    .today-left{
+        float: left;
+    }
+    .today-left a{
+        display: block;
+        width: 210px;
+        height: 151px;
+        background: url("../images/pic1.jpg");
+    }
+    .today-right{
+        position: relative;
+        width: 1000px;
+        float: right;
+        overflow: hidden;
+    }
+    .today .today-right ul{
+        width: 410%;
+    }
+    .today-right li{
+        float: left;
+        margin-left:1px; 
+    }
+/* today end */
+
