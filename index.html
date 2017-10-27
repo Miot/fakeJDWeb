@@ -47,12 +47,12 @@
     <!-- site-nav end -->
 
     <!-- site-topbanner start -->
-        <div class="site-topbanner">
+        <div class="site-topbanner" id="site-topbanner">
             <div class="w tb">
                 <a href="#">    
                     <img src="./images/top-banner.jpg" alt="AD" class="bg-pic">
                 </a>
-                <a href="#" class="close-banner"></a>
+                <a href="#" class="close-banner" id="close-banner"></a>
             </div>
         </div>
     <!-- site-topbanner end -->
@@ -309,5 +309,15 @@
             </div>
         </div>
     <!-- footer end -->
+
+
+
+    <script>
+    	var closeBanner=document.getElementById("close-banner");
+    	var siteTopbanner=document.getElementById("site-topbanner");
+    	closeBanner.onclick = function(){
+    		siteTopbanner.className = "hide";
+    	}
+    </script>
 </body>
 </html>

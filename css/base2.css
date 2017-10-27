@@ -78,22 +78,22 @@
         margin: 0 auto;
     }
     .fl {
-        float: left
+        float: left;
     }
     .fr {
-        float: right
+        float: right;
     }
     .al {
-        text-align: left
+        text-align: left;
     }
     .ac {
-        text-align: center
+        text-align: center;
     }
     .ar {
-        text-align: right
+        text-align: right;
     }
     .hide {
-        display: none
+        display: none!important;
     }
 /*css 初始化 */
 
