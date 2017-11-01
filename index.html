@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
     <!-- site-nav start -->
         <div class="site-nav">
@@ -47,7 +48,7 @@
     <!-- site-nav end -->
 
     <!-- site-topbanner start -->
-        <div class="site-topbanner" id="site-topbanner">
+        <div class="site-topbanner" id="site-topbanner"  style="opacity: 1;">
             <div class="w tb">
                 <a href="#">    
                     <img src="./images/top-banner.jpg" alt="AD" class="bg-pic">
@@ -310,14 +311,21 @@
         </div>
     <!-- footer end -->
 
+<script>
+        var closeBanner=document.getElementById("close-banner");
+        var siteTopbanner=document.getElementsByClassName("site-topbanner")[0];
+        var timer=null;
+        closeBanner.onclick = function(){
+            timer = setInterval(function (){
+                siteTopbanner.style.opacity -= 0.1;
+                if(siteTopbanner.style.opacity<0){
+                    siteTopbanner.className = "hide";
+                    clearInterval(timer);
+                }
+            },40)
+        }
+</script>
 
-
-    <script>
-    	var closeBanner=document.getElementById("close-banner");
-    	var siteTopbanner=document.getElementById("site-topbanner");
-    	closeBanner.onclick = function(){
-    		siteTopbanner.className = "hide";
-    	}
-    </script>
+    
 </body>
 </html>
